@@ -27,13 +27,19 @@
           font-size: 3.5rem;
         }
       }
+      /* Import Fonts */
+      @import url("https://nacrocon.org/sites/all/themes/nacro/css/font-awesome/css/font-awesome.min.css?qkmm1k");
+      @import url("https://nacrocon.org/sites/all/themes/nacro/css/styles.css?qkmm1k");   
     </style>
     <!-- NACRO LOGO -->
-    <img src="../imgs/NACRO_LOGO.png" alt="NACRO Logo">
+    <div class="nacro_logo">
+      <img src="../media/NACRO_LOGO.png" alt="NACRO Logo">
+    </div>
     <!-- NAVBAR -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <ul class="nav navbar-nav">
+          <br>
           <li><a style = "color:black" href="#">Who We Are</a></li>
           <li><a style = "color:black" href="#">Conference and Events</a></li>
           <li><a style = "color:black" href="#">Resources</a></li>
@@ -41,7 +47,59 @@
           <li><a style = "color:black" href="#">Membership</a></li>
         </ul>
       </div>
+      <br>
     </nav>
+    <!-- About Us Textbox -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <p style = "color: black" class="lead"> As higher education plays an increasing role in economic development, and in light of the challenging fiscal environment in which many of our institutions operate, it is more important than ever for colleges and universities to create and maintain dynamic relationships with business and industry. 
+
+            NACRO connects industry and academia, and our resources include student recruitment, research collaborations, specialized training, and leadership development opportunities. 
+            
+             </p>
+        </div>
+        <!-- VIDEO -->
+        <div class="col-md-5 order-md-1">
+          <video autoplay muted loop id="myVideo">
+            <source src="../media/why_nacro.mp4" type="video/mp4">
+          </video>
+        
+        </div>
+      </div>
+      <!-- Contact Us Form -->
+      <section class="mb-4">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Let’s Get In Touch! <br> Email us at info@NACROonline.org, call 706.407.2277 or fill out the form below.</p>
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <div class="container">
+                <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                <div class="row">
+                  <div class="col-6 col-md-4">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">Your name</label>
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Your email</label>
+                  </div>
+                  <div class="col-md-8">
+                    <label for="message">Your message</label>
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                  </div>
+                </div>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+        </div>
+    
+    </section>
+
+
 
     <!-- Custom styles for this website-->
     <link href="style.css" rel="stylesheet">
