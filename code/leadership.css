@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  background-color: #d3d3d3;
+  background-color: lightblue;
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: black;
@@ -18,7 +18,7 @@ body {
 /* NAVBAR
 --------------------------------- */
 .navbar {
-  background-color: gray;
+  background-color: rgb(248, 223, 255);
 }
 
 .navbar-nav > li{
@@ -32,15 +32,15 @@ body {
 .col-md-7 > p{
   font-size: 1.9em;
   margin-left: 3%;
-  background-color: grey;
+  background-color: rgb(248, 223, 255);
 }
 
 .col-md-5 > video{
-  background-color: green;
+  background-color: rgb(248, 223, 255);
 }
 
 .col-md-3{
-    background-color: grey;
+    background-color: rgb(248, 223, 255);
 }
 
 #myVideo {
