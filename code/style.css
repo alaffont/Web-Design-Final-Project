@@ -13,6 +13,13 @@ body {
   color: black;
   font-family: Roboto, Lato;
 }
+/* OTHER site */
+.other_buttons{
+  background-color: rgb(255, 233, 193);
+  width:150px;
+  height: 50px;
+}
+
 
 /* LOGO
 --------------------------------- */
@@ -29,6 +36,12 @@ body {
   font-size: 165%;
   margin-left: 1.5em;
   margin-right: 1.5em;
+}
+
+.FR{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* VIDEO 
