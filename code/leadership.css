@@ -32,6 +32,19 @@ body {
   margin-right: 1.5em;
 }
 
+/* OTHER site */
+.other_buttons{
+  background-color: rgb(255, 233, 193);
+  width:150px;
+  height: 50px;
+}
+
+.other_buttons_selected{
+  background-color: rgb(198, 182, 154);
+  width:150px;
+  height: 50px;
+}
+
 /* VIDEO 
 ------------------------------------*/
 .col-md-7 > p{
