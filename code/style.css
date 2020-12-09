@@ -57,6 +57,13 @@ body {
 
 /* Contact Us Form 
 --------------------------------------------------*/
+.CU {
+  display: none;
+}
+
+.contact_button{
+  background-color: rgb(248, 223, 255);
+}
 .mb-4{
   background-color:rgb(248, 223, 255);
   align-items: center;

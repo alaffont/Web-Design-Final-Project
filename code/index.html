@@ -56,7 +56,7 @@
         <ul class="nav navbar-nav">
           <br>
           <li><a style = "color:black" href="leadership.html">Who We Are</a></li>
-          <li><a style = "color:black" href="Conferences.html">Conference and Events</a></li>
+          <li><a style = "color:black" href="">Conference and Events</a></li>
           <li><a style = "color:black" href="#">Resources</a></li>
           <li><a style = "color:black" href="#">Get Involved</a></li>
           <li><a style = "color:black" href="membership.html">Membership</a></li>
@@ -83,11 +83,13 @@
       <!-- Make form hidden until a button is pressed -->
       <section class="mb-4">
         <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-4">
+          <button class="contact_button" type="button" onclick="showDiv1()">Contact Us</button>
+        </h2>
         <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">Let’s Get In Touch! <br> Email us at info@NACROonline.org, call 706.407.2277 or fill out the form below.</p>
             <!--Grid column-->
-            <div class="col-md-12 mb-md-0 mb-12">
+            <div id="find" class="CU col-md-12 mb-md-0 mb-12">
               <div class="container">
                 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
                 <div class="row">
@@ -112,5 +114,6 @@
 
     <!-- Custom styles for this website-->
     <link href="style.css" rel="stylesheet">
+    <script src="contact.js"></script>
   </head>
 </html>
