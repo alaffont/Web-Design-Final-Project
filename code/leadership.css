@@ -1,6 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   font-family: Roboto, Lato;
@@ -86,3 +87,4 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
