@@ -22,7 +22,7 @@ body {
 /* NAVBAR
 --------------------------------- */
 .navbar {
-  background-color: rgb(248, 223, 255);
+  background-color: rgb(255, 233, 193);
 }
 
 .navbar-nav > li{
@@ -36,7 +36,7 @@ body {
 .col-md-7 > p{
   font-size: 1.9em;
   margin-left: 3%;
-  background-color:rgb(248, 223, 255);
+  background-color: rgb(255, 233, 193);
 }
 
 .col-md-5 > video{
@@ -65,7 +65,7 @@ body {
   background-color: rgb(248, 223, 255);
 }
 .mb-4{
-  background-color:rgb(248, 223, 255);
+  background-color: rgb(255, 233, 193);
   align-items: center;
   /* margin-left: 1em; */
 }
