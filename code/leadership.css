@@ -2,12 +2,16 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+* {
+  font-family: roboto, Lato;
+}
+
 body {
   background-color: lightblue;
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: black;
-  font-family: Lato;
+  font-family: Roboto, Lato;
 }
 
 /* LOGO
@@ -22,7 +26,7 @@ body {
 }
 
 .navbar-nav > li{
-  font-size: x-large;
+  font-size: 165%;
   margin-left: 1.5em;
   margin-right: 1.5em;
 }
